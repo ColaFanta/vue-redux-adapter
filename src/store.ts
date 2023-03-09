@@ -1,5 +1,6 @@
 import { useDispatch as useDispatchGeneric, useStore as useStoreGeneric } from '@/lib/index'
 import * as toolkit from '@reduxjs/toolkit'
+import type {} from 'immer'
 
 const { createSlice, configureStore } = ((toolkit as any).default ?? toolkit) as typeof toolkit
 
