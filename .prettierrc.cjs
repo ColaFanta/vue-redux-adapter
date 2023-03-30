@@ -8,7 +8,7 @@ module.exports = {
   endOfLine: 'auto',
   arrowParens: 'avoid',
   tabWidth: 2,
-  importOrder: ['^\\$', '^[./]'],
+  importOrder: ['^\\@/', '^[./]'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderParserPlugins: ['typescript', 'jsx', JSON.stringify(['decorators', { decoratorsBeforeExport: false }])],

@@ -21,6 +21,7 @@ export default defineConfig({
     },
     sourcemap: true,
     rollupOptions: {
+      context: 'undefined',
       // make sure to externalize deps that shouldn't be bundled
       // into your library
       external: ['vue'],
