@@ -1,8 +1,8 @@
-module.exports = {
+export default {
   singleQuote: true,
   semi: false,
   printWidth: 120,
-  plugins: [require('prettier-plugin-vue'), require('@trivago/prettier-plugin-sort-imports')],
+  plugins: ['prettier-plugin-vue', '@trivago/prettier-plugin-sort-imports'],
   pluginSearchDirs: ['.'],
   trailingComma: 'es5',
   endOfLine: 'auto',
